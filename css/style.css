@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Open+Sans:wght@300;400;500;600&display=swap");
+@import "reset.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+
+.nav__utility {
+  width: 1128px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.utility__franchisee {
+  width: 86px;
+  height: 32px;
+  background-color: #99cccc;
+  color: #fff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 80px;
+}
+
+.utility__franchisee span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.utility__sns-list {
+  display: flex;
+}
+
+.utility__sns-list a i {
+  color: #333366;
+  margin-left: 10px;
+  margin-right: 3px;
+}
+
+.utility__sns-list a span {
+  color: #666666;
+  font-weight: 600;
+}
+
+.nav__bar {
+  width: 1128px;
+  height: 120px;
+  background-color: #f2ebe1;
+  margin: 0 auto;
+  display: flex;
+  position: sticky;
+  top: 40px;
+}
+
+.nav__bar-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 45%;
+}
+
+.nav__bar-logo {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__bar-list li {
+  color: #333366;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.ico__cat {
+  position: absolute;
+  top: -40px;
+}
