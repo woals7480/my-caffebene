@@ -83,3 +83,59 @@ body {
   position: absolute;
   top: -40px;
 }
+
+.mv__slider {
+  width: 1092px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide__img {
+  position: relative;
+  left: 0;
+  transition: left 0.5s;
+}
+
+.slide__img img {
+  width: 1092px;
+}
+
+.slide__button {
+  display: flex;
+  position: absolute;
+  top: 270px;
+  color: #999;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.slide__prev-button {
+  left: 10px;
+}
+
+.slide__next-button {
+  right: 10px;
+}
+
+.slide__pagination {
+  display: flex;
+  gap: 5px;
+
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide__pagination li {
+  font-size: 20px;
+  color: #b7b7b799;
+  cursor: pointer;
+}
+
+.slide__pagination li.active {
+  color: #b7b7b7;
+}
